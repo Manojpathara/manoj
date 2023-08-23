@@ -4,7 +4,7 @@ import { FaMedal } from "react-icons/fa";
 
 export default function About() {
   return (
-    <div className="m-5">
+    <div className="m-5 h-screen">
       <div className="w-full text-center text-black-200">
         
         <h1 className=" text-5xl font-thin font-arial p-3 mb-10">About</h1>

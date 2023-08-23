@@ -29,7 +29,7 @@ export default function Navbar() {
             <li className=" hover:text-cyan-500"> <Link to="/">Home</Link></li>
             <li className=" hover:text-cyan-500"> <Link to="/about"> About </Link></li>
             <li className=" hover:text-cyan-500"> <Link to="/projects">Projects</Link></li>
-            <li className=" hover:text-cyan-500"> <Link to="">Contact </Link></li>
+            <li className=" hover:text-cyan-500"> <Link to="/about">Contact </Link></li>
             <li
               onClick={handleThemeSwitch}
               className="cursor-pointer hover:text-cyan-500"
@@ -57,7 +57,7 @@ export default function Navbar() {
             <li className="mb-7  hover:text-cyan-500"><Link to="/">Home</Link></li>
             <li className="mt-6 mb-7  hover:text-cyan-500"><Link to="/about"> About </Link></li>
             <li className="mb-7  hover:text-cyan-500"><Link to="/projects">Projects</Link></li>
-            <li className="mb-7  hover:text-cyan-500">Contact</li>
+            <li className="mb-7  hover:text-cyan-500"><Link to="/about">Conatact</Link></li>
             <li
               onClick={handleThemeSwitch}
               className="cursor-pointer  hover:text-cyan-500"

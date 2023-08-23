@@ -4,7 +4,7 @@ import Typed from 'react-typed';
  
 export default function profile() {
   return (
-    <div className=' w-full py-16 px-4  bg-white dark:bg-[#0f172a] text-black dark:text-white'>
+    <div className=' w-full h-screen py-16 px-4  bg-white dark:bg-[#0f172a] text-black dark:text-white'>
         <div className='max-w-[1240px] mx-auto grid justify-center items-center md:grid-cols-2 '>
             <img className='md:max-w-[400px] mx-auto  my-6 rounded-full lg:ml-[230px]' src={Manoj} alt="/"  />
        

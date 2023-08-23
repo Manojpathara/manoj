@@ -4,7 +4,7 @@ import Travel from '../assets/travel.jpg'
 import Blog from '../assets/blog.jpg'
 export default function Project() {
   return (
-    <div className="w-full h-full md:h-screen text-center font-arial">
+    <div className="w-full h-full pb-2 md:h-screen text-center font-arial">
       <p className="text-sm font-thin text-gray m-10 mb-5">Browse My Recent</p>
       <h1 className="md:mb-20 text-4xl font-bold-md">Projects</h1>
       <div className="grid m-4 md:grid-cols-3 gap-2 mt-4">
