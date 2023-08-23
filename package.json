@@ -2,7 +2,6 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Manojpathara.github.io/myportfolio",
   
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
