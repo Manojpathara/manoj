@@ -4,6 +4,7 @@ import About from './components/About';
 import Navbar from './components/Navbar';
 import {BrowserRouter as Router,Route,Routes} from "react-router-dom"
 import Project from './components/Project';
+import Contact from './components/Contact';
 
 function App() {
   
@@ -16,6 +17,7 @@ function App() {
         <Route path='/' exact Component={Profile} />
         <Route path='/about' Component={About} />
         <Route path='/projects' Component={Project} />
+        <Route path='/projects' Component={Contact} />
         </Routes>
        </Router>
       
