@@ -22,9 +22,9 @@ export default function Navbar() {
   };
   return (
     <div className="sm:mr-2 md:max-w-[1240px] h-[90px] md:ml-[90px]">
-      <div className="max-w-full mx-4  px-4 flex justify-between items-center h-full font-arial w-full bg-white dark:bg-[#0f172a] text-black dark:text-white">
-          <h1 className="lg:ml-20 text-4xl">MANOJ PM</h1>
-        <div className="mr-[20px] ml-40">
+      <div className="max-w-[1240px] mx-4  px-4 flex justify-between items-center h-full font-arial bg-white dark:bg-[#0f172a] text-black dark:text-white">
+          <h1 className=" lg:ml-20 text-4xl">MANOJ PM</h1>
+        <div className="md:mr-[20px] md:ml-40">
           <ul className=" hidden md:flex text-2xl px-2">
             <li className=" hover:text-cyan-500"> <Link to="/">Home</Link></li>
             <li className=" hover:text-cyan-500"> <Link to="/about"> About </Link></li>
@@ -42,7 +42,7 @@ export default function Navbar() {
             </li>
           </ul>
         </div>
-        <div onClick={handleNav} className=" block md:hidden">
+        <div onClick={handleNav} className=" block md:hidden mr-2">
           {nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
         </div>
 
