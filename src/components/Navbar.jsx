@@ -21,11 +21,11 @@ export default function Navbar() {
     setTheme(theme === "dark" ? "light" : "dark");
   };
   return (
-    <div className="sm:mr-2 md:max-w-[1240px] h-[90px] md:ml-[90px]">
-      <div className="max-w-[1240px] mx-4  px-4 flex justify-between items-center h-full font-arial bg-white dark:bg-[#0f172a] text-black dark:text-white">
-          <h1 className=" lg:ml-20 text-4xl">MANOJ PM</h1>
+    <div className="sm:mr-2 sm:max-w-full md:max-w-full h-[90px]">
+      <div className=" mx-2  px-4 flex justify-between items-center h-full font-clinton bg-white dark:bg-[#0f172a] text-black dark:text-white">
+          <h1 className=" lg:ml-20 text-4xl max-w-full">MANOJ PM</h1>
         <div className="md:mr-[20px] md:ml-40">
-          <ul className=" hidden md:flex text-2xl px-2">
+          <ul className=" hidden md:flex justify-end text-2xl px-2 lg:flex flex:end">
             <li className=" hover:text-cyan-500"> <Link to="/">Home</Link></li>
             <li className=" hover:text-cyan-500"> <Link to="/about"> About </Link></li>
             <li className=" hover:text-cyan-500"> <Link to="/projects">Projects</Link></li>
@@ -54,10 +54,11 @@ export default function Navbar() {
           }
         >
           <ul className="">
-            <li className="mb-7  hover:text-cyan-500"><Link to="/">Home</Link></li>
-            <li className="mt-6 mb-7  hover:text-cyan-500"><Link to="/about"> About </Link></li>
-            <li className="mb-7  hover:text-cyan-500"><Link to="/projects">Projects</Link></li>
-            <li className="mb-7  hover:text-cyan-500"><Link to="/about">Conatact</Link></li>
+
+            <li onClick={() => setNav(false)} className=" mb-7  hover:text-cyan-500"><Link to="/">Home</Link></li>
+            <li onClick={() => setNav(false)} className="mt-6 mb-7  hover:text-cyan-500"><Link to="/about"> About </Link></li>
+            <li onClick={() => setNav(false)} className="mb-7  hover:text-cyan-500"><Link to="/projects">Projects</Link></li>
+            <li onClick={() => setNav(false)} className="mb-7  hover:text-cyan-500"><Link to="/about">Conatact</Link></li>
             <li
               onClick={handleThemeSwitch}
               className="cursor-pointer  hover:text-cyan-500"

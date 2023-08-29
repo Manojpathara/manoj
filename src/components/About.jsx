@@ -4,17 +4,16 @@ import { FaMedal } from "react-icons/fa";
 
 export default function About() {
   return (
-    <div className="m-5 h-screen">
+    <div className="m-5 h-full pb-4">
       <div className="w-full text-center text-black-200">
-        
-        <h1 className=" text-5xl font-thin font-arial p-3 mb-10">About</h1>
+        <h1 className=" text-5xl font-thin font-arial p-3">About</h1>
       </div>
 
       <div className="md:m-20 space-y-2 space-x-2 md:grid gap-2 grid-cols-3 md:grid-rows-2 md:items-center md:justify-items-center">
         {/* image */}
         <div className="grid justify-items-center md:row-span-2 md:grid gap-2 md:items-center md:justify-items-end ">
           <img
-            className="max-w-[250px]  rounded-[1.3rem] mb-4  "
+            className="max-w-[300px]  rounded-[1.3rem] mb-4  "
             src={django}
             alt=""
           />
@@ -30,11 +29,20 @@ export default function About() {
           <p>2 years Web Development</p>
         </div>
         <div className="w-full md:grid col-span-2">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
-          dignissimos ipsum fugit possimus provident ab eius voluptatem pariatur
-          nobis, libero nam at sequi eum, laudantium consequuntur accusantium
-          similique eos. Perspiciatis? Lorem, ipsum dolor sit amet consectetur
-         
+          As a Python Full Stack Web Developer, I bring a versatile skill set
+          and a passion for creating dynamic and responsive web applications.
+          With a strong foundation in both front-end and back-end development, I
+          have the expertise to design intuitive user interfaces using modern
+          technologies like HTML, CSS, JavaScript, and React. My proficiency in Python
+          enables me to craft efficient server-side logic and build robust APIs
+          using frameworks such as Flask and Django. I am experienced in
+          database design and management, utilizing SQL and NoSQL databases to
+          ensure seamless data integration. Additionally, my knowledge of
+          version control systems like Git and collaborative tools enhances my
+          ability to work effectively within development teams. By combining
+          creativity and technical acumen, I consistently strive to deliver
+          user-centered, high-performance web solutions that meet both client
+          needs and industry standards.
         </div>
       </div>
     </div>
