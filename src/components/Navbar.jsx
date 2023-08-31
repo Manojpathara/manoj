@@ -23,16 +23,16 @@ export default function Navbar() {
   return (
     <div className="sm:mr-2 sm:max-w-full md:max-w-full h-[90px]">
       <div className=" mx-2  px-4 flex justify-between items-center h-full font-clinton bg-white dark:bg-[#0f172a] text-black dark:text-white">
-          <h1 className=" lg:ml-20 text-4xl max-w-full">MANOJ PM</h1>
+          <h1 className=" lg:ml-20 text-4xl max-w-full font-semibold">MANOJ</h1>
         <div className="md:mr-[20px] md:ml-40">
           <ul className=" hidden md:flex justify-end text-2xl px-2 lg:flex flex:end">
-            <li className=" hover:text-cyan-500"> <Link to="/">Home</Link></li>
-            <li className=" hover:text-cyan-500"> <Link to="/about"> About </Link></li>
-            <li className=" hover:text-cyan-500"> <Link to="/projects">Projects</Link></li>
-            <li className=" hover:text-cyan-500"> <Link to="/about">Contact </Link></li>
+            <li className=" hover:text-[#673ab7]"> <Link to="/">Home</Link></li>
+            <li className="hover:text-[#673ab7]"> <Link to="/about"> About </Link></li>
+            <li className="hover:text-[#673ab7]"> <Link to="/projects">Projects</Link></li>
+            <li className="hover:text-[#673ab7]"> <Link to="/about">Contact </Link></li>
             <li
               onClick={handleThemeSwitch}
-              className="cursor-pointer hover:text-cyan-500"
+              className="cursor-pointer hover:text-[#673ab7]"
             >
               {theme === "dark" ? (
                 <BsMoonFill size={30} />

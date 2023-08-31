@@ -2,11 +2,14 @@ import React from "react";
 import django from "../assets/django.jpg";
 import { FaMedal } from "react-icons/fa";
 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@100&display=swap" rel="stylesheet">
+</link>
+
 export default function About() {
   return (
-    <div className="m-5 h-full pb-4">
+    <div className="m-5 pb-4">
       <div className="w-full text-center text-black-200">
-        <h1 className=" text-5xl font-thin font-arial p-3">About</h1>
+        <h1 className=" text-5xl font-thin font-Roboto p-3">About</h1>
       </div>
 
       <div className="md:m-20 space-y-2 space-x-2 md:grid gap-2 grid-cols-3 md:grid-rows-2 md:items-center md:justify-items-center">
